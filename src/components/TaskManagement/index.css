@@ -1,0 +1,118 @@
+.task-management {
+  padding: 20px;
+}
+
+.management-header {
+  background: var(--gradient-secondary);
+  padding: 20px;
+  border-radius: var(--card-border-radius);
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.management-header h2 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.management-header h2::before {
+  content: '📋';
+  margin-right: 8px;
+  animation: bounce 2s infinite;
+}
+
+.management-header .adm-button {
+  background: white;
+  color: var(--color-primary);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.management-header .adm-button::before {
+  content: '✨';
+  margin-right: 8px;
+}
+
+.task-management-card {
+  background: var(--color-background);
+  border-radius: var(--card-border-radius);
+  margin-bottom: 16px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  border: 2px solid #E8F5FE;
+  transition: all 0.3s ease;
+}
+
+.task-management-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.task-management-header {
+  background: var(--gradient-primary);
+  padding: 16px;
+  color: white;
+}
+
+.task-management-header h3 {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.task-management-header h3::before {
+  content: '🎯';
+  margin-right: 8px;
+}
+
+.task-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.task-status.active {
+  background: var(--gradient-secondary);
+  color: white;
+}
+
+.task-status.active::before {
+  content: '✨';
+  margin-right: 4px;
+}
+
+.task-status.inactive {
+  background: var(--gradient-accent);
+  color: white;
+}
+
+.task-status.inactive::before {
+  content: '💤';
+  margin-right: 4px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+}
+
+.empty-state::before {
+  content: '🌈';
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+  animation: bounce 2s infinite;
+}

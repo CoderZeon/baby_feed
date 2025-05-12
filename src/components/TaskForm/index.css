@@ -1,0 +1,86 @@
+.task-form {
+  padding: 20px;
+}
+
+.form-header {
+  background: var(--gradient-primary);
+  padding: 20px;
+  border-radius: var(--card-border-radius);
+  margin-bottom: 24px;
+  color: white;
+  text-align: center;
+}
+
+.form-header h2 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header h2::before {
+  content: '✨';
+  margin-right: 8px;
+  animation: bounce 2s infinite;
+}
+
+.adm-form {
+  background: var(--color-background);
+  border-radius: var(--card-border-radius);
+  padding: 20px;
+  box-shadow: var(--card-shadow);
+}
+
+.adm-form-item {
+  margin-bottom: 20px;
+}
+
+.adm-form-item-label {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.adm-form-item:nth-child(1) .adm-form-item-label::before { content: '📝'; margin-right: 8px; }
+.adm-form-item:nth-child(2) .adm-form-item-label::before { content: '🔄'; margin-right: 8px; }
+.adm-form-item:nth-child(3) .adm-form-item-label::before { content: '🎯'; margin-right: 8px; }
+.adm-form-item:nth-child(4) .adm-form-item-label::before { content: '⏰'; margin-right: 8px; }
+.adm-form-item:nth-child(5) .adm-form-item-label::before { content: '📋'; margin-right: 8px; }
+
+.duration-section {
+  background: var(--gradient-secondary);
+  padding: 20px;
+  border-radius: var(--card-border-radius);
+  margin: 24px 0;
+  color: white;
+}
+
+.duration-label {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.duration-label::before {
+  content: '📅';
+  margin-right: 8px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.form-buttons .adm-button {
+  flex: 1;
+  height: 48px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
