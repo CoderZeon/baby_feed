@@ -1,0 +1,77 @@
+.statistics {
+  padding: 16px;
+  padding-bottom: 60px;
+}
+
+.statistics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.statistics-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.statistics-header span {
+  color: #666;
+  font-size: 14px;
+}
+
+.stat-card {
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.stat-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.stat-content {
+  padding: 8px 0;
+}
+
+.stat-progress {
+  margin-bottom: 16px;
+}
+
+.stat-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item .label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.stat-item .value {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* 进度条样式 */
+.adm-progress {
+  --track-width: 8px;
+}
+
+.adm-progress-circle .adm-progress-circle-content {
+  font-size: 14px;
+  color: #333;
+}

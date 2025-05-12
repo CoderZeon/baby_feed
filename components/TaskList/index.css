@@ -1,0 +1,65 @@
+.task-list {
+  padding: 16px;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-list-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.task-card {
+  margin-bottom: 12px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.task-header h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  background: #fff3e5;
+  color: #f76707;
+}
+
+.status.completed {
+  background: #e6f7ff;
+  color: #1677ff;
+}
+
+.task-info {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.complete-btn {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 0;
+  color: #999;
+}
+
+.empty-state p {
+  margin-bottom: 16px;
+}
